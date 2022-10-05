@@ -3,10 +3,11 @@
 0, 7, 8, -2, -2 -> 2
 -1, -7, 567, 89, 223-> 3
 */
-Console.Clear();
 void printArray()
 {
+    Console.Clear();
     Console.WriteLine("Приветствую! Эта программа покажет количество положительных чисел из тех, которые ввел пользователь!");
+    Console.WriteLine("(Для себя проверил можно ли весь код записать в один Void и c одним массивом решить задачку)");
     int N = 1;
     int[] arr = new int[1000];
     Console.WriteLine("Вводите числа через Enter. Оставьте поле пустым и нажмите Enter - это остановит ввод чисел");
@@ -38,9 +39,9 @@ void printArray()
             Console.Write($"{arr[index]}({index + 1}) ");
             count++;
         }
-
     }
     Console.WriteLine("");
     Console.WriteLine($"Количество положительных чисел -> {count}");
+    Console.WriteLine("Bye!");
 }
 printArray();
