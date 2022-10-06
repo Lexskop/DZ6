@@ -33,6 +33,7 @@ void calc(int[] userArray, int target)
 }
 Console.WriteLine("Приветствую! Эта программа покажет все возможные решения чтобы из суммы цифр от 1 до 9 получить Ваше число.");
 Console.WriteLine("Цифры в комбинациях не повторяются");
+Console.WriteLine("Введите число, которое нужно получить:");
 int userNumber = Convert.ToInt32(Console.ReadLine());
 
 calc(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, userNumber);
